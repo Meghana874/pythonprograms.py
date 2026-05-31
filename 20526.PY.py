@@ -2,7 +2,7 @@
 
 def fun(*a):
     print(sum(a[::2]))
-    a[1::2]
+
 fun(2,3,45,667,77)
 def fun(*a):
     print(a)
@@ -64,7 +64,7 @@ def fun6(*a):
 fun6(1,7,8,25,30,60,70)
 
 def fun7(*a):
-    i=0;s=0;
+    i=0;s=0
     while i<len(a):
         if a[i]%2==0:
             s+=a[i]
