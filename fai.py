@@ -1,4 +1,4 @@
-#functions
+functions.py#functions
 def say_hello():
     print("Welcome to Python!")
 
@@ -26,8 +26,8 @@ print(area)
 
 def multiply(a, b, c):
     return a * b * c
-print(multiply(2, 3, 4))
 #PARAMETERS
+print(multiply(2, 3, 4))
 
 def describe_pet(animal, name):
     print("My", animal, "is named", name)
